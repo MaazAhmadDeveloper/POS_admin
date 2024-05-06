@@ -1,0 +1,69 @@
+.add-new {
+    display: block !important;
+    margin: 0 0 15px auto !important;
+    background-color: #001e28 !important;
+    color: #ffffff !important;
+    box-shadow: 0 0 5px #001e28 !important;
+    transition: all 0.5s;
+    border: none !important;
+}
+  
+.add-new:hover {
+    background-color: #ffffff !important;
+    color: #001e28 !important;
+}
+.secret-modal-cofirm-btn{
+    margin: 0px 20px ;
+    background-color: #001e28 !important;
+    box-shadow: 0 0 5px #001e28 !important;
+    color: #ffffff !important;
+    border: none !important;
+}
+.secret-modal-cofirm-btn:hover{
+    background-color: #ffffff !important;
+    color: #001e28 !important;
+}
+.secret-modal-cancel-btn{
+    color: #f7454a !important;
+    margin-left: auto;
+    box-shadow: 0 0 5px #f7454a !important;
+    border: none !important;
+}
+.secret-modal-cancel-btn:hover{
+    box-shadow: 0 0 5px #000000 !important;
+    background-color: #c70505 !important;
+    color: #ffffff !important;
+}
+.user-action {
+    cursor: pointer;
+    transition: all 0.5s;
+}
+  
+.user-action:hover {
+  filter: drop-shadow(0 0 2px #ff0000);
+  color: #ffffff;
+}
+.user-edit {
+  cursor: pointer;
+  transition: all 0.5s;
+  margin-left: 30px;
+}
+.user-edit:hover {
+  filter: drop-shadow(0 0 2px #0000ff);
+  color: #ffffff;
+}
+
+.first-row{
+    display: flex;
+}
+.card{
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #e3e3e3;
+    height: 170px;
+    width: 30%;
+}
+.card-head{
+    margin: 20px;
+    display: flex;
+}
